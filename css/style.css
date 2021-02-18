@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("../img/dungeon.jpg");
+  overflow-x: hidden;
+  background-color: #333;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+header {
+  width: 100%;
+  margin-bottom: 25px;
+  height: 7vh;
+  background: #222;
+  position: fixed;
+  padding-left: 10px;
+}
+
+header .menu-topo {
+  max-width: 1024px;
+  height: 100%;
+  margin: 0 auto;
+  padding: 6px 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .menu-topo .pesquisa {
+  margin-left: 4px;
+  width: 180px;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .menu-topo .pesquisa input {
+  padding: 5px 0;
+  padding-left: 10px;
+  background: #444;
+  border: none;
+  border-radius: 2px;
+  font-size: 0.9rem;
+  color: #e2e2e2;
+  letter-spacing: 1px;
+}
+
+header .menu-topo .nav-menu {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+}
+
+header .menu-topo .nav-menu li {
+  margin-left: 24px;
+}
+
+header .menu-topo .nav-menu li a {
+  text-transform: uppercase;
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  display: block;
+  text-decoration: none;
+  color: #f1f1f1;
+}
+
+.container {
+  max-width: 1024px;
+  min-height: 100vh;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px;
+}
+
+.container .logo {
+  margin-top: 11%;
+  margin-bottom: 5%;
+  padding: 7px;
+  max-width: 500px;
+  max-height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container img {
+  width: 100%;
+  height: auto;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.container .produtos {
+  min-height: 100vh;
+  width: 100%;
+  background-color: rgba(61, 31, 1, 0.9);
+}
+
+.container .produtos .nav-prod {
+  width: 100%;
+  height: 7vh;
+}
+
+.container .produtos .nav-prod ul {
+  min-height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #f1f1f1;
+  border-radius: 8px;
+  padding: 0 7px;
+  margin: 20px;
+}
+
+.container .produtos .conteudo {
+  width: 100%;
+  height: 100%;
+  margin-top: 20px;
+  padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 15px;
+}
+
+.container .produtos .conteudo .product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 433px;
+  width: 286px;
+  border: 1px solid #f1f1f1;
+}
+
+.container .produtos .conteudo .product .item {
+  width: 100%;
+  background-color: yellow;
+  height: 100%;
+}
+/*# sourceMappingURL=style.css.map */

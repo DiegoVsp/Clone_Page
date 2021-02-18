@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: 'Poppins', sans-serif;
+}
+body {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url("../img/dungeon.jpg");
+  overflow-x: hidden;
+  background-color: #333;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@import "partials/menu";
+li {
+  list-style: none;
+}
+a {
+  display:block;
+  text-decoration: none;
+  color: #f1f1f1;
+}
+@import "partials/layout";
