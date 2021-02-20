@@ -74,13 +74,13 @@
         .item {
           width: 100%;
           // background-color: yellow;
-          height: 85%;
+          height: 100%;
           display: flex;
           flex-direction: column;
           color: rgba(255, 255, 255, 0.3);
           // transition: 0.3s ease;
           align-items: center;
-          justify-content: space-around;
+          justify-content: space-between;
 
           &:hover {
             color: #f1f1f1;
