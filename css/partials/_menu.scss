@@ -8,6 +8,10 @@ header {
   padding-left:10px;//
   z-index: 999;
 
+  @include responsive(){
+    display:hidden;
+    opacity: 0;
+  }
   .menu-topo {
     max-width: 1024px;
     height: 100%;

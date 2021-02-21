@@ -8,6 +8,11 @@
   outline: none;
   font-family: 'Poppins', sans-serif;
 }
+@mixin responsive {
+  @media screen and(max-width:960px){
+    @content;
+  }
+}
 body {
   width: 100%;
   min-height: 100vh;

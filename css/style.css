@@ -31,6 +31,13 @@ header {
   z-index: 999;
 }
 
+@media screen and (max-width: 960px) {
+  header {
+    display: hidden;
+    opacity: 0;
+  }
+}
+
 header .menu-topo {
   max-width: 1024px;
   height: 100%;
